@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8804DD3D1FE6DCF300FA86BA /* MeetingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD3C1FE6DCF300FA86BA /* MeetingsViewController.m */; };
+		8804DD401FE6EC6900FA86BA /* AppFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD3F1FE6EC6900FA86BA /* AppFactoryImpl.m */; };
+		8804DD431FE6F15700FA86BA /* MeetingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD421FE6F15700FA86BA /* MeetingsTableViewCell.m */; };
+		8804DD471FE7AF9D00FA86BA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD461FE7AF9D00FA86BA /* MapViewController.m */; };
+		8804DD4C1FE7B0F200FA86BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8804DD4B1FE7B0F200FA86BA /* MapKit.framework */; };
+		8804DD4F1FE7D59D00FA86BA /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD4E1FE7D59D00FA86BA /* Meeting.m */; };
+		8804DD531FE7D7DC00FA86BA /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD521FE7D7DC00FA86BA /* Organization.m */; };
+		8804DD561FE7DC3600FA86BA /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD551FE7DC3600FA86BA /* Repository.m */; };
+		8804DD591FE7DEFC00FA86BA /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD581FE7DEFC00FA86BA /* NetworkService.m */; };
+		8804DD5E1FE81D7E00FA86BA /* MeetingDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD5D1FE81D7E00FA86BA /* MeetingDTO.m */; };
+		8804DD611FE8FD3500FA86BA /* UIViewController+ShowError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD601FE8FD3500FA86BA /* UIViewController+ShowError.m */; };
+		8804DD6F1FE9157100FA86BA /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD6E1FE9157100FA86BA /* MainPresenter.m */; };
+		8804DD761FE920DF00FA86BA /* MeetingListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD751FE920DF00FA86BA /* MeetingListPresenter.m */; };
+		8804DD7C1FE92C0B00FA86BA /* MapPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804DD7B1FE92C0B00FA86BA /* MapPresenter.m */; };
+		884FFE9D1FE195DA000AF7DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884FFE9C1FE195DA000AF7DC /* AppDelegate.m */; };
+		884FFEA01FE195DA000AF7DC /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884FFE9F1FE195DA000AF7DC /* ContainerViewController.m */; };
+		884FFEA51FE195DA000AF7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884FFEA41FE195DA000AF7DC /* Assets.xcassets */; };
+		884FFEA81FE195DA000AF7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884FFEA61FE195DA000AF7DC /* LaunchScreen.storyboard */; };
+		884FFEAB1FE195DA000AF7DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884FFEAA1FE195DA000AF7DC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8804DD3B1FE6DCF300FA86BA /* MeetingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingsViewController.h; sourceTree = "<group>"; };
+		8804DD3C1FE6DCF300FA86BA /* MeetingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingsViewController.m; sourceTree = "<group>"; };
+		8804DD3E1FE6EADB00FA86BA /* AppFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFactory.h; sourceTree = "<group>"; };
+		8804DD3F1FE6EC6900FA86BA /* AppFactoryImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppFactoryImpl.m; sourceTree = "<group>"; };
+		8804DD411FE6F15700FA86BA /* MeetingsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingsTableViewCell.h; sourceTree = "<group>"; };
+		8804DD421FE6F15700FA86BA /* MeetingsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingsTableViewCell.m; sourceTree = "<group>"; };
+		8804DD451FE7AF9D00FA86BA /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8804DD461FE7AF9D00FA86BA /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8804DD4B1FE7B0F200FA86BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8804DD4D1FE7D59D00FA86BA /* Meeting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		8804DD4E1FE7D59D00FA86BA /* Meeting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		8804DD511FE7D7DC00FA86BA /* Organization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		8804DD521FE7D7DC00FA86BA /* Organization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
+		8804DD541FE7DC3600FA86BA /* Repository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		8804DD551FE7DC3600FA86BA /* Repository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		8804DD571FE7DEFC00FA86BA /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		8804DD581FE7DEFC00FA86BA /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		8804DD5C1FE81D7E00FA86BA /* MeetingDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingDTO.h; sourceTree = "<group>"; };
+		8804DD5D1FE81D7E00FA86BA /* MeetingDTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingDTO.m; sourceTree = "<group>"; };
+		8804DD5F1FE8FD3500FA86BA /* UIViewController+ShowError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowError.h"; sourceTree = "<group>"; };
+		8804DD601FE8FD3500FA86BA /* UIViewController+ShowError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowError.m"; sourceTree = "<group>"; };
+		8804DD621FE904F900FA86BA /* NetworkDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkDTO.h; sourceTree = "<group>"; };
+		8804DD641FE905CD00FA86BA /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		8804DD6D1FE9157100FA86BA /* MainPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		8804DD6E1FE9157100FA86BA /* MainPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
+		8804DD701FE91B4B00FA86BA /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		8804DD731FE91ECD00FA86BA /* MeetingsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingsListView.h; sourceTree = "<group>"; };
+		8804DD741FE920DF00FA86BA /* MeetingListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingListPresenter.h; sourceTree = "<group>"; };
+		8804DD751FE920DF00FA86BA /* MeetingListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingListPresenter.m; sourceTree = "<group>"; };
+		8804DD771FE9283F00FA86BA /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		8804DD7A1FE92C0B00FA86BA /* MapPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPresenter.h; sourceTree = "<group>"; };
+		8804DD7B1FE92C0B00FA86BA /* MapPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPresenter.m; sourceTree = "<group>"; };
+		884FFE981FE195DA000AF7DC /* MeetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884FFE9B1FE195DA000AF7DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884FFE9C1FE195DA000AF7DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884FFE9E1FE195DA000AF7DC /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		884FFE9F1FE195DA000AF7DC /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		884FFEA41FE195DA000AF7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884FFEA71FE195DA000AF7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884FFEA91FE195DA000AF7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884FFEAA1FE195DA000AF7DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884FFE951FE195DA000AF7DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8804DD4C1FE7B0F200FA86BA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8804DD441FE7AF2200FA86BA /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD3B1FE6DCF300FA86BA /* MeetingsViewController.h */,
+				8804DD3C1FE6DCF300FA86BA /* MeetingsViewController.m */,
+				8804DD411FE6F15700FA86BA /* MeetingsTableViewCell.h */,
+				8804DD421FE6F15700FA86BA /* MeetingsTableViewCell.m */,
+				8804DD731FE91ECD00FA86BA /* MeetingsListView.h */,
+				8804DD741FE920DF00FA86BA /* MeetingListPresenter.h */,
+				8804DD751FE920DF00FA86BA /* MeetingListPresenter.m */,
+			);
+			path = Meetings;
+			sourceTree = "<group>";
+		};
+		8804DD481FE7B0CC00FA86BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD4B1FE7B0F200FA86BA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8804DD501FE7D79700FA86BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD4D1FE7D59D00FA86BA /* Meeting.h */,
+				8804DD4E1FE7D59D00FA86BA /* Meeting.m */,
+				8804DD511FE7D7DC00FA86BA /* Organization.h */,
+				8804DD521FE7D7DC00FA86BA /* Organization.m */,
+				8804DD641FE905CD00FA86BA /* Models.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8804DD5A1FE7DFC900FA86BA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD541FE7DC3600FA86BA /* Repository.h */,
+				8804DD551FE7DC3600FA86BA /* Repository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8804DD5B1FE7DFE000FA86BA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD571FE7DEFC00FA86BA /* NetworkService.h */,
+				8804DD581FE7DEFC00FA86BA /* NetworkService.m */,
+				8804DD631FE9054300FA86BA /* NetworkDTO */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8804DD631FE9054300FA86BA /* NetworkDTO */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD5C1FE81D7E00FA86BA /* MeetingDTO.h */,
+				8804DD5D1FE81D7E00FA86BA /* MeetingDTO.m */,
+				8804DD621FE904F900FA86BA /* NetworkDTO.h */,
+			);
+			path = NetworkDTO;
+			sourceTree = "<group>";
+		};
+		8804DD651FE907E500FA86BA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				884FFEA41FE195DA000AF7DC /* Assets.xcassets */,
+				884FFEA61FE195DA000AF7DC /* LaunchScreen.storyboard */,
+				884FFEA91FE195DA000AF7DC /* Info.plist */,
+				884FFEAA1FE195DA000AF7DC /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8804DD661FE908CB00FA86BA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD681FE908F600FA86BA /* Container */,
+				8804DD441FE7AF2200FA86BA /* Meetings */,
+				8804DD671FE908E700FA86BA /* Map */,
+				8804DD691FE9090B00FA86BA /* Extensions */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8804DD671FE908E700FA86BA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD451FE7AF9D00FA86BA /* MapViewController.h */,
+				8804DD461FE7AF9D00FA86BA /* MapViewController.m */,
+				8804DD771FE9283F00FA86BA /* MapView.h */,
+				8804DD7A1FE92C0B00FA86BA /* MapPresenter.h */,
+				8804DD7B1FE92C0B00FA86BA /* MapPresenter.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		8804DD681FE908F600FA86BA /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				884FFE9E1FE195DA000AF7DC /* ContainerViewController.h */,
+				884FFE9F1FE195DA000AF7DC /* ContainerViewController.m */,
+				8804DD701FE91B4B00FA86BA /* MainView.h */,
+				8804DD6D1FE9157100FA86BA /* MainPresenter.h */,
+				8804DD6E1FE9157100FA86BA /* MainPresenter.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		8804DD691FE9090B00FA86BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8804DD5F1FE8FD3500FA86BA /* UIViewController+ShowError.h */,
+				8804DD601FE8FD3500FA86BA /* UIViewController+ShowError.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		884FFE8F1FE195DA000AF7DC = {
+			isa = PBXGroup;
+			children = (
+				884FFE9A1FE195DA000AF7DC /* MeetingApp */,
+				884FFE991FE195DA000AF7DC /* Products */,
+				8804DD481FE7B0CC00FA86BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884FFE991FE195DA000AF7DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884FFE981FE195DA000AF7DC /* MeetingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884FFE9A1FE195DA000AF7DC /* MeetingApp */ = {
+			isa = PBXGroup;
+			children = (
+				884FFE9B1FE195DA000AF7DC /* AppDelegate.h */,
+				884FFE9C1FE195DA000AF7DC /* AppDelegate.m */,
+				8804DD3E1FE6EADB00FA86BA /* AppFactory.h */,
+				8804DD3F1FE6EC6900FA86BA /* AppFactoryImpl.m */,
+				8804DD661FE908CB00FA86BA /* Presentation */,
+				8804DD5A1FE7DFC900FA86BA /* Repository */,
+				8804DD5B1FE7DFE000FA86BA /* Data */,
+				8804DD501FE7D79700FA86BA /* Models */,
+				8804DD651FE907E500FA86BA /* SupportingFiles */,
+			);
+			path = MeetingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884FFE971FE195DA000AF7DC /* MeetingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884FFEAE1FE195DA000AF7DC /* Build configuration list for PBXNativeTarget "MeetingApp" */;
+			buildPhases = (
+				884FFE941FE195DA000AF7DC /* Sources */,
+				884FFE951FE195DA000AF7DC /* Frameworks */,
+				884FFE961FE195DA000AF7DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingApp;
+			productName = MeetingApp;
+			productReference = 884FFE981FE195DA000AF7DC /* MeetingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884FFE901FE195DA000AF7DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SampleOrganization;
+				TargetAttributes = {
+					884FFE971FE195DA000AF7DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 884FFE931FE195DA000AF7DC /* Build configuration list for PBXProject "MeetingApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884FFE8F1FE195DA000AF7DC;
+			productRefGroup = 884FFE991FE195DA000AF7DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884FFE971FE195DA000AF7DC /* MeetingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884FFE961FE195DA000AF7DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884FFEA81FE195DA000AF7DC /* LaunchScreen.storyboard in Resources */,
+				884FFEA51FE195DA000AF7DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884FFE941FE195DA000AF7DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884FFEA01FE195DA000AF7DC /* ContainerViewController.m in Sources */,
+				8804DD561FE7DC3600FA86BA /* Repository.m in Sources */,
+				8804DD611FE8FD3500FA86BA /* UIViewController+ShowError.m in Sources */,
+				884FFEAB1FE195DA000AF7DC /* main.m in Sources */,
+				8804DD3D1FE6DCF300FA86BA /* MeetingsViewController.m in Sources */,
+				8804DD531FE7D7DC00FA86BA /* Organization.m in Sources */,
+				8804DD431FE6F15700FA86BA /* MeetingsTableViewCell.m in Sources */,
+				8804DD401FE6EC6900FA86BA /* AppFactoryImpl.m in Sources */,
+				8804DD5E1FE81D7E00FA86BA /* MeetingDTO.m in Sources */,
+				8804DD4F1FE7D59D00FA86BA /* Meeting.m in Sources */,
+				8804DD6F1FE9157100FA86BA /* MainPresenter.m in Sources */,
+				884FFE9D1FE195DA000AF7DC /* AppDelegate.m in Sources */,
+				8804DD761FE920DF00FA86BA /* MeetingListPresenter.m in Sources */,
+				8804DD591FE7DEFC00FA86BA /* NetworkService.m in Sources */,
+				8804DD471FE7AF9D00FA86BA /* MapViewController.m in Sources */,
+				8804DD7C1FE92C0B00FA86BA /* MapPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		884FFEA61FE195DA000AF7DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884FFEA71FE195DA000AF7DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884FFEAC1FE195DA000AF7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		884FFEAD1FE195DA000AF7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884FFEAF1FE195DA000AF7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MeetingApp/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arzhannikov.MeetingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		884FFEB01FE195DA000AF7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MeetingApp/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arzhannikov.MeetingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884FFE931FE195DA000AF7DC /* Build configuration list for PBXProject "MeetingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884FFEAC1FE195DA000AF7DC /* Debug */,
+				884FFEAD1FE195DA000AF7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884FFEAE1FE195DA000AF7DC /* Build configuration list for PBXNativeTarget "MeetingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884FFEAF1FE195DA000AF7DC /* Debug */,
+				884FFEB01FE195DA000AF7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884FFE901FE195DA000AF7DC /* Project object */;
+}
