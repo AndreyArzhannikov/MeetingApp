@@ -12,4 +12,4 @@ It's an implementation of an interview test assignment
 - Landscape orientation.
 - Non adaptive layout (target - iPad Air 2).
 - Language - Objective-C.
-- Don't use MVC patter for presentation layer
+- Don't use MVC pattern for presentation layer
